@@ -10,7 +10,6 @@ A modern, fast, and secure lost-and-found platform built specifically for univer
 [![Vite](https://img.shields.io/badge/Vite-6.2-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4.0-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![Lucide Icons](https://img.shields.io/badge/Lucide_Icons-1.16-F56565?style=for-the-badge&logo=lucide&logoColor=white)](https://lucide.dev/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
 [Features](#-key-features) • [Getting Started](#-getting-started) • [How It Works](#-how-it-works) • [Campus Map & Safe Desks](#-campus-map--safe-desks) • [Project Structure](#-project-structure) • [Tech Stack](#-tech-stack)
 

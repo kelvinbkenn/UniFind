@@ -12,7 +12,7 @@ A modern, fast, and secure lost-and-found platform built specifically for univer
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4.0-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![Lucide Icons](https://img.shields.io/badge/Lucide_Icons-1.16-F56565?style=for-the-badge&logo=lucide&logoColor=white)](https://lucide.dev/)
 
-**🔗 [Explore the Live Deployment](https://uni-find-c68axjr04-google-engineers.vercel.app)**
+***🔗 [Explore the Live Deployment](https://uni-find-c68axjr04-google-engineers.vercel.app)***
 
 [🚀 Live Demo](https://uni-find-c68axjr04-google-engineers.vercel.app) • [Features](#-key-features) • [Getting Started](#-getting-started) • [How It Works](#-how-it-works) • [Campus Map & Safe Desks](#-campus-map--safe-desks) • [Project Structure](#-project-structure) • [Tech Stack](#-tech-stack)
 

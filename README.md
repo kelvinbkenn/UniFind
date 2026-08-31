@@ -97,7 +97,7 @@ Make sure you have the following installed on your machine:
    ```
 
 4. **Open in browser:**
-   Navigate to [http://localhost:5173](http://localhost:5173) in your browser.
+   Navigate to [[http://localhost:5173](https://uni-find-c68axjr04-google-engineers.vercel.app/)]([http://localhost:5173](https://uni-find-c68axjr04-google-engineers.vercel.app/)) in your browser.
 
 ---
 

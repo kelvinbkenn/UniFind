@@ -5,13 +5,16 @@
 
 A modern, fast, and secure lost-and-found platform built specifically for university campuses. Designed to help students, faculty, and campus staff quickly report, track, verify, and safely reunite lost belongings.
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Vercel-black?style=for-the-badge&logo=vercel&logoColor=white)](https://uni-find-c68axjr04-google-engineers.vercel.app)
 [![React](https://img.shields.io/badge/React-19.0-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Vite](https://img.shields.io/badge/Vite-6.2-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4.0-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![Lucide Icons](https://img.shields.io/badge/Lucide_Icons-1.16-F56565?style=for-the-badge&logo=lucide&logoColor=white)](https://lucide.dev/)
 
-[Features](#-key-features) • [Getting Started](#-getting-started) • [How It Works](#-how-it-works) • [Campus Map & Safe Desks](#-campus-map--safe-desks) • [Project Structure](#-project-structure) • [Tech Stack](#-tech-stack)
+**🔗 [Explore the Live Deployment](https://uni-find-c68axjr04-google-engineers.vercel.app)**
+
+[🚀 Live Demo](https://uni-find-c68axjr04-google-engineers.vercel.app) • [Features](#-key-features) • [Getting Started](#-getting-started) • [How It Works](#-how-it-works) • [Campus Map & Safe Desks](#-campus-map--safe-desks) • [Project Structure](#-project-structure) • [Tech Stack](#-tech-stack)
 
 </div>
 

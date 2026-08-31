@@ -28,8 +28,6 @@ export const CampusMapModal: React.FC<CampusMapModalProps> = ({
 
   if (!isOpen) return null;
 
-  const selectedLoc = CAMPUS_LOCATIONS.find((l) => l.id === selectedLocationId);
-  
   // Calculate item counts per location
   const locationStats = CAMPUS_LOCATIONS.map((loc) => {
     const locItems = items.filter((i) => i.locationId === loc.id && i.status !== 'resolved');
@@ -117,7 +115,7 @@ export const CampusMapModal: React.FC<CampusMapModalProps> = ({
               </svg>
 
               {/* Location Pins */}
-              {locationStats.map((loc) => {
+              {filteredLocations.map((loc) => {
                 const isSelected = loc.id === selectedLocationId;
                 return (
                   <button

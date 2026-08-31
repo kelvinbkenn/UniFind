@@ -233,7 +233,7 @@ export const App: React.FC = () => {
     addToast(
       'success',
       'Message Sent Safely',
-      `Your note was dispatched to the listing reporter.`
+      `Your note from ${note.senderName} was dispatched to the listing reporter.`
     );
   };
 

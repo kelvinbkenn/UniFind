@@ -1,17 +1,16 @@
 import React from 'react';
 import { 
   Search, 
-  Filter, 
   MapPin, 
   Calendar, 
   ArrowUpDown, 
   LayoutGrid, 
   List, 
-  X,
-  Sparkles,
-  Layers
+  X, 
+  Sparkles, 
+  Layers 
 } from 'lucide-react';
-import { Category, FilterState, CampusLocation } from '../types';
+import { Category, FilterState } from '../types';
 import { CATEGORIES_CONFIG, CAMPUS_LOCATIONS } from '../data/mockData';
 import { CategoryIcon } from './CategoryIcon';
 

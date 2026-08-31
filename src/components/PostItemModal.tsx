@@ -9,14 +9,10 @@ import {
   Clock,
   Award,
   ShieldCheck,
-  HelpCircle,
-  Sparkles,
-  Info,
-  Check
+  HelpCircle
 } from 'lucide-react';
 import { Item, ItemType, Category } from '../types';
 import { CAMPUS_LOCATIONS, CATEGORIES_CONFIG, PRESET_ITEM_IMAGES } from '../data/mockData';
-import { CategoryIcon } from './CategoryIcon';
 
 interface PostItemModalProps {
   isOpen: boolean;
@@ -41,7 +37,6 @@ export const PostItemModal: React.FC<PostItemModalProps> = ({
   const [eventDate, setEventDate] = useState(new Date().toISOString().split('T')[0]);
   const [eventTime, setEventTime] = useState('12:00 PM');
   const [selectedImage, setSelectedImage] = useState(PRESET_ITEM_IMAGES[0].url);
-  const [customImageUrl, setCustomImageUrl] = useState('');
   const [reward, setReward] = useState('');
   const [securityQuestion, setSecurityQuestion] = useState('');
   const [droppedAtSafeDesk, setDroppedAtSafeDesk] = useState(false);
@@ -474,6 +469,22 @@ export const PostItemModal: React.FC<PostItemModalProps> = ({
 
               <div className="space-y-1">
                 <label className="text-xs font-semibold text-slate-700 dark:text-slate-300">
+                  Campus Role
+                </label>
+                <select
+                  value={reporterRole}
+                  onChange={(e) => setReporterRole(e.target.value as any)}
+                  className="w-full text-xs rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-slate-900 dark:text-white p-2.5 font-medium"
+                >
+                  <option value="student">Student</option>
+                  <option value="staff">Staff Member</option>
+                  <option value="faculty">Faculty / Professor</option>
+                  <option value="security">Campus Security / Police</option>
+                </select>
+              </div>
+
+              <div className="space-y-1">
+                <label className="text-xs font-semibold text-slate-700 dark:text-slate-300">
                   Preferred Contact
                 </label>
                 <select
@@ -485,6 +496,19 @@ export const PostItemModal: React.FC<PostItemModalProps> = ({
                   <option value="email">Direct Campus Email</option>
                   <option value="phone">Phone / SMS</option>
                 </select>
+              </div>
+
+              <div className="sm:col-span-2 space-y-1">
+                <label className="text-xs font-semibold text-slate-700 dark:text-slate-300">
+                  Search Tags &amp; Keywords (Optional)
+                </label>
+                <input
+                  type="text"
+                  value={tagInput}
+                  onChange={(e) => setTagInput(e.target.value)}
+                  placeholder="e.g. apple, airpods, gym, silver (comma separated)"
+                  className="w-full text-xs rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-slate-900 dark:text-white p-2.5"
+                />
               </div>
             </div>
           </div>

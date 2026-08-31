@@ -13,8 +13,7 @@ import {
   MessageSquare,
   User,
   ArrowRight,
-  Check,
-  AlertTriangle
+  Check
 } from 'lucide-react';
 import { Item } from '../types';
 import { CAMPUS_LOCATIONS, CATEGORIES_CONFIG } from '../data/mockData';

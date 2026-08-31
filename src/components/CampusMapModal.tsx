@@ -1,16 +1,13 @@
 import React, { useState } from 'react';
 import {
   X,
-  MapPin,
   ShieldCheck,
   Building,
-  Layers,
   ChevronRight,
   Compass,
-  Sparkles,
-  AlertCircle
+  Sparkles
 } from 'lucide-react';
-import { Item, CampusLocation } from '../types';
+import { Item } from '../types';
 import { CAMPUS_LOCATIONS } from '../data/mockData';
 
 interface CampusMapModalProps {

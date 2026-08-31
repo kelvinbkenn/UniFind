@@ -22,11 +22,6 @@ import { ToastContainer, ToastMessage } from './components/Toast';
 import { triggerConfetti } from './utils/helpers';
 import { 
   SearchX, 
-  PlusCircle, 
-  ShieldCheck, 
-  Heart, 
-  Compass, 
-  Sparkles,
   PhoneCall
 } from 'lucide-react';
 

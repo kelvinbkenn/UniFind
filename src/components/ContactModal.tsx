@@ -4,10 +4,7 @@ import {
   Send,
   MessageSquare,
   MapPin,
-  ShieldCheck,
-  CheckCircle2,
-  Mail,
-  Phone
+  ShieldCheck
 } from 'lucide-react';
 import { Item } from '../types';
 import { CAMPUS_LOCATIONS } from '../data/mockData';

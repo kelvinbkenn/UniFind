@@ -3,12 +3,8 @@ import {
   X,
   ShieldCheck,
   Building,
-  CheckCircle2,
   AlertTriangle,
-  PhoneCall,
-  Lock,
-  Clock,
-  HelpCircle
+  Clock
 } from 'lucide-react';
 import { CAMPUS_LOCATIONS } from '../data/mockData';
 

@@ -1,13 +1,10 @@
 import React from 'react';
 import { 
-  Search, 
   MapPin, 
-  ShieldCheck, 
   Sparkles, 
   PlusCircle, 
-  ArrowRight,
-  TrendingUp,
-  AlertCircle
+  ArrowRight, 
+  AlertCircle 
 } from 'lucide-react';
 
 interface StatsBannerProps {
@@ -39,9 +36,19 @@ export const StatsBanner: React.FC<StatsBannerProps> = ({
       <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
         {/* Left Column: Hero Copy & Quick Tags */}
         <div className="lg:col-span-7 space-y-5">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-indigo-500/20 border border-indigo-400/30 text-indigo-200">
-            <Sparkles className="w-3.5 h-3.5 text-amber-300 animate-pulse" />
-            <span>Official University Lost &amp; Found Directory</span>
+          <div className="flex flex-wrap items-center gap-2">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-indigo-500/20 border border-indigo-400/30 text-indigo-200">
+              <Sparkles className="w-3.5 h-3.5 text-amber-300 animate-pulse" />
+              <span>Official University Lost &amp; Found Directory</span>
+            </div>
+
+            <button
+              onClick={onOpenMapModal}
+              className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-indigo-500/20 hover:bg-indigo-500/40 border border-indigo-400/30 text-indigo-200 hover:text-white transition-all cursor-pointer"
+            >
+              <MapPin className="w-3 h-3 text-emerald-400" />
+              <span>Campus Map</span>
+            </button>
           </div>
 
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight leading-[1.15]">
@@ -64,7 +71,7 @@ export const StatsBanner: React.FC<StatsBannerProps> = ({
                 <button
                   key={tag.label}
                   onClick={() => onSelectCategory(tag.cat)}
-                  className="px-3 py-1.5 rounded-lg text-xs font-medium bg-white/10 hover:bg-white/20 text-slate-200 hover:text-white border border-white/10 transition-all hover:scale-105 active:scale-95"
+                  className="px-3 py-1.5 rounded-lg text-xs font-medium bg-white/10 hover:bg-white/20 text-slate-200 hover:text-white border border-white/10 transition-all hover:scale-105 active:scale-95 cursor-pointer"
                 >
                   {tag.label}
                 </button>
